@@ -1,0 +1,73 @@
+body {
+    overflow: hidden;
+}
+
+
+* {
+    font-family: akro;
+    white-space: nowrap;
+}
+
+
+.maincon {
+    display: none;
+    background: linear-gradient(to top,#5EA965, transparent);
+    width: 135px;
+    height: 120px;
+    position: absolute;
+    top:89%;
+    left: 85%;
+}
+
+.ticket {
+    width: 120px;
+    opacity: 0.7;
+    position: absolute;
+    left: 50%;
+    top: 83%;
+    transform: translate(-50%, -60%);
+    
+}
+
+
+@font-face {
+    font-family: akro;
+    src: url(./fonts/Akrobat-Bold.otf);
+}
+
+.sure {
+    color: #ffffff;
+    text-align: center;
+    font-size: 17px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: -13%;
+    opacity: 1;
+    rotate: -2deg;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+}
+
+.time {
+    position: relative;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    top: -40px;
+    rotate: -2deg;
+     	
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+}
+
+.prize {
+    color: white;
+    z-index: 10;
+    position: relative;
+    font-size: 25px;
+    top: -77.3%;
+    left: 79.5%;
+    rotate: -5deg;
+    transform: translate(-50%);
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+}
